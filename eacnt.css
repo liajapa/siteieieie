@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+h1{
+    color: rgb(5, 204, 88);
+    font-family: 'Playfair Display', serif; 
+    font-size: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+}
+.navbar {
+    background: #54b97b99;
+    padding: 1.2rem;
+    text-align: center; 
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 2rem;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+    transition: opacity 0.5s ease; 
+}
+
+.navbar-brand:hover {
+    opacity: 0.7; 
+}
+
+.navbar-nav {
+    padding: 0.8rem 0 0.2rem 0;
+    text-align: center;
+}
+
+.navbar-nav a {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif; 
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.4rem 0.1rem;
+    letter-spacing: 3px;
+    transition: opacity 0.5s ease; 
+}
+
+.navbar-nav a:hover {
+    opacity: 0.7; 
+}
+
+/*css obrigatorio*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+body {
+    background-color: rgb(220, 245, 226);
+}
+main{
+    background-color: rgb(205, 255, 226);
+    border-radius: 8px;
+    padding: 20px;
+    width: 90%;
+    margin: 40px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.add-form{
+    display: flex;
+    margin-bottom: 50px;
+    gap: 15px;
+    width: 100%;
+}
+input{
+    width: 100%;
+    flex: 1;
+    padding: 15px;
+    border: 1px solid;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+button[type="submit"]{
+    background-color: rgb(173, 255, 198);
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(40, 150, 67);
+    font-size: 1.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    cursor: pointer;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th{
+    padding: 10px 15px;
+    border: 1px solid #000000;
+    text-align: center;
+}
+td{
+    color: black;
+    font-weight: 600;
+}
+tr{
+   background-color: rgb(181, 255, 197);
+}
+select{
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+select:hover{
+    color: rgb(5, 204, 88);
+}
+.btn-action{
+    border: none;
+    border-radius: 5px;
+    color: #000000ad;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointers;
+}
+.btn-action:hover{
+    color: rgb(9, 218, 96);
+}
+

@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: flex-start; 
+    height: 100vh; 
+    margin: 0;
+    background-color: beige;
+}
+
+h1 {
+    color: rgb(255, 156, 85);
+    font-size: 3.7rem;
+    font-weight: 500;
+    text-align: center; /* Ajuste para centralizar o texto */
+}
+
+.navbar {
+    background: #b98d5499;
+    padding: 1.2rem;
+    text-align: center; 
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 2rem;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: opacity 0.5s ease; 
+}
+
+.navbar-brand:hover {
+    opacity: 0.7; 
+}
+
+.navbar-nav {
+    padding: 0.8rem 0 0.2rem 0;
+}
+
+.navbar-nav a {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.4rem 0.1rem;
+    letter-spacing: 3px;
+    transition: opacity 0.5s ease; 
+}
+
+.navbar-nav a:hover {
+    opacity: 0.7; 
+}
+
+main {
+    background-color: blanchedalmond;
+    border-radius: 8px;
+    padding: 20px;
+    width: 90%;
+    margin: 40px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex; /* Se necessário para centralizar o conteúdo */
+    flex-direction: column; /* Se necessário para empilhar elementos */
+}
+
+.add-form {
+    display: flex;
+    margin-bottom: 50px;
+    gap: 15px;
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    flex: 1;
+    padding: 15px;
+    border: 1px solid;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+button[type="submit"] {
+    background-color: navajowhite;
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 5px;
+    color: peru;
+    font-size: 1.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    padding: 10px 15px;
+    border: 1px solid #000000;
+    text-align: center;
+}
+
+td {
+    color: black;
+    font-weight: 600;
+}
+
+tr {
+    background-color: rgb(255, 225, 181);
+}
+
+select {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+select:hover {
+    background-color: rgb(255, 156, 85);
+}
+
+.btn-action {
+    border: none;
+    border-radius: 5px;
+    color: #000000ad;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer; /* Corrigido o erro de digitação */
+}
+
+.btn-action:hover {
+    background-color: rgb(255, 156, 85);
+}
+.hidden {
+    display: none;
+}
+#displayedImage, #displayedImage2 {
+    max-width: 100%;
+    height: auto;
+}
+
+#showImageButton1, #showImageButton2 {
+    background-color: rgb(255, 225, 181);
+    color: black; 
+    border: none;
+    padding: 15px 25px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    margin: 0 10px; 
+}
+
+#showImageButton1:hover, #showImageButton2:hover {
+    background-color: rgb(255, 156, 85); 
+}
